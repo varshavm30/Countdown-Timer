@@ -1,0 +1,33 @@
+body{
+	background-color: #000000;
+	/* justify-content: center; */
+	/* align-items: center; */
+	height: 100vh;
+	font-family:'Orbitron', sans-serif;
+	/* display : flex; */
+}
+.box{
+	 height:300px;
+	width:800px; 
+	border:2px solid white;
+	position: relative;
+	box-shadow:  2px 2px 50px #20c997;
+	border-radius:25%;
+	 
+}
+.countDown{
+	font-size: 25px;
+    color: #20c997;
+	text-shadow: 2px 2px 25px red;
+	position: absolute;
+    border-radius: 25%;     
+}
+.box, .countDown{
+	transform: translate(-50% ,-50%); 
+     top:50%;   
+	 left:50%; 
+}
+.counter{
+	display: inline-block;
+	margin: 0 15px;
+}
